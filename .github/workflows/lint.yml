@@ -6,8 +6,11 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository content
-        uses: actions/checkout@v2
-        
-      - name: start-lint
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - uses: Gr1N/setup-poetry@v7
+      
+      - name: do lint
         run: make lint
