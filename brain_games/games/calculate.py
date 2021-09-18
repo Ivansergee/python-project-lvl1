@@ -1,6 +1,9 @@
 import prompt
 import random
 
+from .welcome import welcome_user
+from .check_answer import check_answer
+
 
 def summ(num1, num2):
     return num1 + num2
@@ -15,9 +18,7 @@ def mult(num1, num2):
 
 
 def calculate():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    name = welcome_user()
     print('What is the result of the expression?')
     operators = ['*', '+', '-']
     correct_count = 0
@@ -35,11 +36,10 @@ def calculate():
         elif operator == '-':
             correct_answer = substract(number1, number2)
 
-        if answer == correct_answer:
+        if check_answer(answer, correct_answer):
             correct_count += 1
-            print('Correct!')
         else:
             correct_count = 0
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")  # noqa
             print(f"Let's try again {name}")
+
     print(f'Congratulations, {name}!')
