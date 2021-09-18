@@ -4,3 +4,5 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
 ![lint](https://github.com/Ivansergee/python-project-lvl1/actions/workflows/lint.yml/badge.svg)
+
+<a href="https://asciinema.org/a/wtzVMNFqniREqoaFu2AmV3FrR" target="_blank"><img src="https://asciinema.org/a/wtzVMNFqniREqoaFu2AmV3FrR.svg" /></a>
