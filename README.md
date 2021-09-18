@@ -6,3 +6,4 @@
 ![lint](https://github.com/Ivansergee/python-project-lvl1/actions/workflows/lint.yml/badge.svg)
 
 <a href="https://asciinema.org/a/wtzVMNFqniREqoaFu2AmV3FrR" target="_blank"><img src="https://asciinema.org/a/wtzVMNFqniREqoaFu2AmV3FrR.svg" /></a>
+<a href="https://asciinema.org/a/NJnaTSawYhXRNqhRwgcsQHSle" target="_blank"><img src="https://asciinema.org/a/NJnaTSawYhXRNqhRwgcsQHSle.svg" /></a>
