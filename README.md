@@ -5,4 +5,4 @@
 
 ![lint](https://github.com/Ivansergee/python-project-lvl1/actions/workflows/lint.yml/badge.svg)
 
-[![asciicast](https://asciinema.org/a/wtzVMNFqniREqoaFu2AmV3FrR.svg)](https://asciinema.org/a/wtzVMNFqniREqoaFu2AmV3FrR)
+<a href="https://asciinema.org/a/wtzVMNFqniREqoaFu2AmV3FrR" target="_blank"><img src="https://asciinema.org/a/wtzVMNFqniREqoaFu2AmV3FrR.svg" /></a>
