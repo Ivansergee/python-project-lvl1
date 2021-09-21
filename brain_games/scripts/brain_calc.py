@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-from ..games.calculate import calculate
+from ..games.game_calc import game_calc
 
 
 def main():
-    calculate()
+    game_calc()
 
 
 if __name__ == '__main__':

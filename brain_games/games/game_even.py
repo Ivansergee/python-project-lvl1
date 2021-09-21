@@ -1,8 +1,9 @@
 import prompt
 import random
 
-from .welcome import welcome_user
-from .check_answer import check_answer
+from ..functions.calculations import is_even
+from ..functions.welcome import welcome_user
+from ..functions.check_answer import check_answer
 
 
 def guess_even():
@@ -14,10 +15,7 @@ def guess_even():
         print(f'Question: {number}')
         answer = prompt.string('Your answer: ')
 
-        if number % 2 == 0:
-            correct_answer = 'yes'
-        else:
-            correct_answer = 'no'
+        correct_answer = is_even(number)
 
         if check_answer(answer, correct_answer):
             correct_count += 1

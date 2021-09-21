@@ -1,23 +1,12 @@
 import prompt
 import random
 
-from .welcome import welcome_user
-from .check_answer import check_answer
+from ..functions.welcome import welcome_user
+from ..functions.calculations import calculate
+from ..functions.check_answer import check_answer
 
 
-def summ(num1, num2):
-    return num1 + num2
-
-
-def substract(num1, num2):
-    return num1 - num2
-
-
-def mult(num1, num2):
-    return num1 * num2
-
-
-def calculate():
+def game_calc():
     name = welcome_user()
     print('What is the result of the expression?')
     operators = ['*', '+', '-']
@@ -29,12 +18,7 @@ def calculate():
         print(f'Question: {number1} {operator} {number2}')
         answer = prompt.integer('Your answer: ')
 
-        if operator == '*':
-            correct_answer = mult(number1, number2)
-        elif operator == '+':
-            correct_answer = summ(number1, number2)
-        elif operator == '-':
-            correct_answer = substract(number1, number2)
+        correct_answer = calculate(number1, number2, operator)
 
         if check_answer(answer, correct_answer):
             correct_count += 1

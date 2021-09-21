@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-from ..games.guess_even import guess_even
+from ..games.game_even import game_even
 
 
 def main():
-    guess_even()
+    game_even()
 
 
 if __name__ == '__main__':
