@@ -1,3 +1,6 @@
+import math
+
+
 def find_gcd(number1, number2):
     number1, number2 = max(number1, number2), min(number1, number2)
     while number1 % number2 != 0:
@@ -27,3 +30,11 @@ def find_missing(progression, step):
         return progression[missing_i - 1] + step
     else:
         return progression[missing_i + 1] - step
+
+
+def is_prime(number):
+    n = math.floor(math.sqrt(number))
+    for i in range(2, n+1):
+        if number % i == 0:
+            return 'no'
+    return 'yes'

@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-from ..functions.welcome import welcome_user
+from ..games.game_prime import game_prime
 
 
 def main():
-    welcome_user()
+    game_prime()
 
 
 if __name__ == '__main__':
