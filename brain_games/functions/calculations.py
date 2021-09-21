@@ -19,3 +19,11 @@ def calculate(number1, number2, operator):
         return number1 - number2
     elif operator == '*':
         return number1 * number2
+
+
+def find_missing(progression, step):
+    missing_i = progression.index('..')
+    if missing_i > 0:
+        return progression[missing_i - 1] + step
+    else:
+        return progression[missing_i + 1] - step
