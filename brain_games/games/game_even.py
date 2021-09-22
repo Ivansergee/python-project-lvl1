@@ -6,7 +6,7 @@ from brain_games.functions.welcome import welcome_user
 from brain_games.functions.check_answer import check_answer
 
 
-def guess_even():
+def game_even():
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     correct_count = 0
