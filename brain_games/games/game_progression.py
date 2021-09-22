@@ -1,9 +1,9 @@
 import prompt
 import random
 
-from ..functions.welcome import welcome_user
-from ..functions.check_answer import check_answer
-from ..functions.calculations import find_missing
+from brain_games.functions.welcome import welcome_user
+from brain_games.functions.check_answer import check_answer
+from brain_games.functions.calculations import find_missing
 
 
 def game_progression():

@@ -1,9 +1,9 @@
 import prompt
 import random
 
-from ..functions.calculations import is_even
-from ..functions.welcome import welcome_user
-from ..functions.check_answer import check_answer
+from brain_games.functions.calculations import is_even
+from brain_games.functions.welcome import welcome_user
+from brain_games.functions.check_answer import check_answer
 
 
 def guess_even():

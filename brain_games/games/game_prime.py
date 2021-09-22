@@ -1,9 +1,9 @@
 import prompt
 import random
 
-from ..functions.welcome import welcome_user
-from ..functions.calculations import is_prime
-from ..functions.check_answer import check_answer
+from brain_games.functions.welcome import welcome_user
+from brain_games.functions.calculations import is_prime
+from brain_games.functions.check_answer import check_answer
 
 
 def game_prime():
