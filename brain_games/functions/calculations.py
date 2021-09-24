@@ -8,22 +8,6 @@ def find_gcd(number1, number2):
     return number2
 
 
-def is_even(number):
-    if number % 2 == 0:
-        return 'yes'
-    else:
-        return 'no'
-
-
-def calculate(number1, number2, operator):
-    if operator == '+':
-        return number1 + number2
-    elif operator == '-':
-        return number1 - number2
-    elif operator == '*':
-        return number1 * number2
-
-
 def find_missing(progression, step):
     missing_i = progression.index('..')
     if missing_i > 0:
