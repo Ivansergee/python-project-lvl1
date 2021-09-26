@@ -1,4 +1,3 @@
-import prompt
 import random
 
 
@@ -7,7 +6,7 @@ def game_calc():
     number1 = random.randint(1, 99)
     number2 = random.randint(1, 99)
     operator = random.choice(operators)
-    
+
     question = f'{number1} {operator} {number2}'
 
     if operator == '+':

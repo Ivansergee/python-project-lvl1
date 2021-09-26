@@ -1,4 +1,3 @@
-import prompt
 import random
 
 from brain_games.functions.calculations import is_prime

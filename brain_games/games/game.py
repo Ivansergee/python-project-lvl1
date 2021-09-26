@@ -16,7 +16,7 @@ def game(title, question_generator):
             correct_count += 1
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")  # noqa
-            print(f"Let's try again {name}!")
+            print(f"Let's try again, {name}!")
             break
     else:
         print(f'Congratulations, {name}!')
